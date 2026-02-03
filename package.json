@@ -1,0 +1,14 @@
+{
+  "name": "ppob-platform",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend",
+    "bot-wa"
+  ],
+  "scripts": {
+    "dev:backend": "npm --workspace backend run dev",
+    "dev:frontend": "npm --workspace frontend run dev",
+    "dev:bot": "npm --workspace bot-wa run dev"
+  }
+}
